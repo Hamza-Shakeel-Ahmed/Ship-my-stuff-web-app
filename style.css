@@ -1,7 +1,584 @@
-body{
-    overflow-x: hidden;
+body
+ {
+  overflow-x: hidden; 
+  font-family: "Montserrat" !important;
+  
 }
-.services{
-    min-width:1100px;
+
+.top-bar {
+  background-color: #404b51;
+}
+
+
+.navbar{
+  box-shadow:0 0 3px #404b51;
+}
+.navbar-font {
+  font-size: 17px !important;
+  font-weight: 600;
+  color: teal !important;
+}
+.nav-home {
+  margin-top: 6px;
+}
+.whatsapp-icon{
+  z-index: 1;
+}
+.carousal-section{
+  max-height: 350px!important;
+}
+.banner-item-1 {
+  text-align: center !important;
+  bottom: 18% !important; 
+}
+
+.banner-item-1 p {
+  color: #404b51 !important;
+  font-size: 55px !important ;
+  font-weight: 900;
+}
+
+.banner-item-1 p span,
+small span {
+  color: #00b7ae !important;
+}
+.banner-item-1 small {
+  color: #404b51 !important;
+  font-size: 30px !important ;
+  font-weight: 600;
+}
+
+.banner-item-2 {
+  top: 30%;
+  left: -25% !important;
+}
+.banner-item-2 p {
+  color: #404b51 !important;
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.banner-item-2 small {
+  color: #404b51 !important;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.banner-item-2 span {
+  color: #00b7ae;
+}
+
+.services {
+  background: #eaeaea;
+  border-radius: 40px;
+  border: 1px solid#404b51!important 
+}
+
+.services .bar {
+  max-width: 95%;
+}
+
+.service-section-icons {
+  box-shadow: 0 5px #00b7ae;
+}
+
+.service-section-icons:hover {
+  background-color: #00b7ae !important;
+}
+
+.service-section-icons img {
+  cursor: pointer;
+  width: 78px !important;
+  height: 41px !important;
+}
+
+.services button {
+  background-color: #00b7ae !important;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  outline-offset: 4px;
+  font-size: 23px;
+}
+
+.form-btn {
+  background-color: #00b7ae !important;
+  padding: 8px;
+  margin-left: -3px;
+}
+
+.check-box-text {
+  font-weight: 700;
+  color: #fff;
+}
+.check-box input {
+ margin-top: 1.5px!important;
+}
+.active-service-icon {
+  background-color: #00b7ae !important;
+}
+
+.bar-text {
+  color: #00b7ae;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.active-item {
+  color: #d598a0 !important;
+}
+
+.service-section-cards img {
+  width: 38px;
+  height: 40px;
+}
+
+.service-section-cards:hover {
+  cursor: pointer;
+  background-color: #00b7ae !important;
+}
+
+.services .title {
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.service-section-cards p {
+  color: #000;
+  font-size: 10px;
+}
+
+.service-section-cards div {
+  height: 125px;
+  margin: 3px;
+}
+
+.solutions-section-heading h1 {
+  color: #404b51 !important;
+  font-weight: 600 !important;
+  font-size: 44px !important;
+  line-height: 54px !important;
+}
+
+.solutions-section-heading p {
+  font-size: 18px !important;
+  margin: 0 0 30px !important;
+  font-family: "inter", sans-serif !important;
+  color: #404b51 !important;
+  line-height: 27px !important;
+}
+
+.solutions .sub-text {
+  font-weight: 700 !important;
+  font-size: 8px !important;
+}
+
+.solutions .fa-check {
+  color: #00b7ae !important;
+  padding-right: 4px !important;
+}
+
+.solutions-btn {
+  background: #00b7ae !important;
+  color: #fff !important;
+  display: flex;
+  justify-content: start !important;
+  align-items: center !important;
+  border: 1px solid #a7a7a7 !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.solutions-btn img {
+  margin-left: 100px;
+}
+
+.bar-below-services-section {
+  background-color: #404b51 !important;
+}
+
+.list-item {
+  color: #00b7ae;
+}
+
+.first-list-item {
+  color: #d598a0;
+}
+
+.dropdown-button{
+ margin-left:20rem;
+} 
+
+.solutions img {
+  border-radius: 10px 10px 0 0 !important;
+}
+.card-1{
+  gap: 80px!important;
+}
+.cards h4 {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  font-family: "inter", sans-serif !important;
+  color: #00b7ae !important;
+  font-weight: 600 !important;
+}
+
+.cards p {
+  color: #404b51 !important;
+  font-size: 14px !important;
+  font-family: "inter", sans-serif;
+  line-height: 25px !important;
+}
+
+.card-img img {
+  width: 100% !important;
+  height: 220px !important;
+}
+
+.cards-info {
+  color: #212529;
+  background-color: #eaeaea;
+}
+
+.row-two-cards-info {
+  background-color: #eaeaea;
+  height: 250px;
+}
+
+/* .cards-info small::before {
+  content:"\2713";
+   
+  color: #00b7ae;
+} */
+.first-row-card-one {
+  width: 400px;
+}
+
+
+
+.sub-text {
+  font-size: 10px !important;
+}
+
+.Information-section-heading h1 {
+  color: #404b51 !important;
+  font-weight: 600 !important;
+  font-size: 44px !important;
+}
+
+.Information-section-heading p {
+  font-size: 18px !important;
+
+  font-family: "inter", sans-serif !important;
+  color: #404b51 !important;
+}
+
+.packaging-section-heading h1 {
+  color: #404b51 !important;
+  font-weight: 600 !important;
+  font-size: 44px !important;
+}
+
+.packaging-section-heading p {
+  font-size: 18px !important;
+  margin: 0 0 30px !important;
+  font-family: "inter", sans-serif !important;
+  color: #404b51 !important;
+}
+
+.calculator {
+  background-color: #404b51 !important;
+}
+
+.calculator-heading {
+  color: #404b51 !important;
+}
+
+.input-btn {
+  margin-top: 7px;
+  margin-left: -4px;
+}
+.locations-container {
+  padding: 0 !important;
+  max-width: 1230px !important;
+}
+
+.location-text {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  color: #00b7ae;
+}
+
+.location-one {
+  background-image: url(banner/Domestic.561e151f.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.location-two {
+  background-image: url(banner/Sea.79ddb8cc.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.location-one {
+  background-image: url(banner/International.ef72df57.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.location-btn {
+  background: #404b51 !important;
+  border: none !important;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 0 !important;
+  height: 87px !important;
+}
+
+.location-btn:hover {
+  background-color: #d598a0 !important;
+}
+
+.shipping-services-box:hover {
+  cursor: pointer;
+
+  background-color: white;
+  padding: 10px;
+  transition: 2.5s ease;
+}
+
+.services-section-row div {
+  padding: 10px;
+  /* max-width: 273px;
+  height: 200px; */
+}
+
+.shipping-services-img-box {
+  width: 100%;
+}
+
+.shipping-services-img-box img {
+  width: 90px;
+  margin-left: 3rem;
+}
+
+.shipping-text {
+  margin: 0 !important;
+  color: #3f4c52 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+}
+
+.shipping-section-cards img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.shipping-section-cards:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+ box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5)
+  
+}
+
+.shipping-section-cards p {
+  margin: 0 !important;
+  color: #3f4c52 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+}
+
+.teal-background-card {
+  background-color: teal !important;
+}
+.about-section{
+  background-color: #eaeaea !important;
+  width: 100%;
+}
+@media (max-width: 1096px) {
+  .cards-section {
+    padding: 80px 120px 120px 100px;
+  }
+  .banner-item-1 p {
     
+    font-size: 45px !important  ;
+  }
+  .banner-item-1 small {
+    color: #404b51;
+    font-size: 20px;
+  }
+  .services-section-form input {
+    padding: 0;
+  }
+  .form-btn {
+    margin-left: -10px;
+  }
+  .banner-item-2{
+   left: 10%!important;
+  }
+  .banner-item-2 p {
+    
+    
+    font-size: 45px;
+   
+  }
+  .banner-item-1 small {
+    color: #404b51 !important;
+    font-size: 20px !important ;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services .title {
+    font-size: 60%;
+  }
+  .service-section-cards p {
+    font-size: 7px;
+  }
+  .services-section-form input {
+    padding: 0;
+  }
+  .form-btn {
+    margin-left: -20px;
+  }
+  .banner-item-1 p {
+    font-size: 30px !important  ;
+  }
+  .banner-item-1 small {
+    color: #404b51;
+    font-size: 8px;
+  }
+  .banner-item-2 p {
+    font-size: 35px;
+  }
+  .banner-item-2 small {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 680px) {
+  .services .title {
+    font-size: 60%;
+  }
+  .service-section-cards p {
+    font-size: 7px;
+  }
+  .banner-item-1 p {
+    font-size: 30px !important  ;
+  }
+  .banner-item-1 small {
+    color: #404b51;
+    font-size: 12px !important;
+  }
+  .banner-item-2 p {
+    font-size: 30px;
+  }
+  .banner-item-2 small {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .services .title {
+    font-size: 10px;
+  }
+
+  .service-section-cards p {
+    font-size: 4px;
+  }
+
+  .check-box input {
+    width: 8% !important;
+  }
+
+  
+  .banner-item-1 p {
+    font-size: 25px !important;
+  }
+  .banner-item-1 small {
+    color: #404b51;
+    font-size: 15px;
+  }
+  .banner-item-2 p {
+    font-size: 25px;
+  }
+  .banner-item-2 small {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services .title {
+    font-size: 10px;
+  }
+  .service-section-cards h6 {
+    font-size: 4px;
+  }
+
+  .service-section-cards p {
+    font-size: 4px;
+  }
+
+  
+  .carousal-section{
+  max-height: 240px!important;
+}
+  
+   .banner-item-1{
+    top: 30%;
+  }
+  .banner-item-1 p {
+    font-size: 17px !important ;
+  }
+  .banner-item-1 small {
+    color: #404b51 !important;
+    font-size: 10px !important ;
+  }
+  .banner-item-2 p {
+    font-size: 20px;
+  }
+  .banner-item-2 small {
+    font-size: 12px !important;
+  }
+  .checkbox-text h6 {
+  margin-top: 2.5px!important;
+    font-size: 83%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+ 
+
+  .banner-item-1 p {
+    font-size: 13px !important  ;
+  }
+  .banner-item-1 small {
+    font-size: 6px !important ;
+  }
+  .banner-item-2 p {
+    font-size: 15px;
+  }
+  .banner-item-2 small {
+    font-size: 6px !important;
+  }
+  .location-btn {
+
+  font-size: 17px;
+
+}
+
 }
