@@ -1,17 +1,93 @@
-body
- {
-  overflow-x: hidden; 
+body {
+  overflow-x: hidden;
   font-family: "Montserrat" !important;
-  
+}
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-on-scroll.fade-up {
+  transition-delay: 0.1s;
+}
+
+.animate-on-scroll.fade-left {
+  transform: translateX(-80px);
+}
+
+.animate-on-scroll.fade-right {
+  transform: translateX(80px);
+}
+
+.animate-on-scroll.scale-in {
+  transform: scale(0.85);
+}
+
+.service-section-cards,
+.solution-card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.service-section-cards:hover {
+  transform: translateY(-15px) scale(1.03);
+  box-shadow: 0 25px 50px -12px rgb(0 183 174 / 0.25) !important;
+}
+
+.solution-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 30px 60px -15px rgb(0 183 174 / 0.3) !important;
+}
+
+.location-box {
+  transition: all 0.4s ease;
+}
+
+.location-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 183, 174, 0.2) !important;
+}
+
+.service-section-cards:nth-child(1) {
+  transition-delay: 0.05s;
+}
+.service-section-cards:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.service-section-cards:nth-child(3) {
+  transition-delay: 0.15s;
+}
+.service-section-cards:nth-child(4) {
+  transition-delay: 0.2s;
+}
+.service-section-cards:nth-child(5) {
+  transition-delay: 0.25s;
+}
+
+.card-img img,
+.service-section-cards img {
+  transition: transform 0.5s ease;
+}
+
+.solution-card:hover .card-img img,
+.service-section-cards:hover img {
+  transform: scale(1.08);
+}
+
+.top-bar {
+  transition: all 0.3s ease;
+}
 .top-bar {
   background-color: #404b51;
 }
 
-
-.navbar{
-  box-shadow:0 0 3px #404b51;
+.navbar {
+  box-shadow: 0 0 3px #404b51;
 }
 .navbar-font {
   font-size: 17px !important;
@@ -21,15 +97,15 @@ body
 .nav-home {
   margin-top: 6px;
 }
-.whatsapp-icon{
+.whatsapp-icon {
   z-index: 1;
 }
-.carousal-section{
-  max-height: 350px!important;
+.carousal-section {
+  max-height: 350px !important;
 }
 .banner-item-1 {
   text-align: center !important;
-  bottom: 18% !important; 
+  bottom: 18% !important;
 }
 
 .banner-item-1 p {
@@ -71,7 +147,7 @@ small span {
 .services {
   background: #eaeaea;
   border-radius: 40px;
-  border: 1px solid#404b51!important 
+  border: 1px solid#404b51 !important;
 }
 
 .services .bar {
@@ -112,7 +188,7 @@ small span {
   color: #fff;
 }
 .check-box input {
- margin-top: 1.5px!important;
+  margin-top: 1.5px !important;
 }
 .active-service-icon {
   background-color: #00b7ae !important;
@@ -207,15 +283,15 @@ small span {
   color: #d598a0;
 }
 
-.dropdown-button{
- margin-left:20rem;
-} 
+.dropdown-button {
+  margin-left: 20rem;
+}
 
 .solutions img {
   border-radius: 10px 10px 0 0 !important;
 }
-.card-1{
-  gap: 80px!important;
+.card-1 {
+  gap: 80px !important;
 }
 .cards h4 {
   font-size: 18px !important;
@@ -255,8 +331,6 @@ small span {
 .first-row-card-one {
   width: 400px;
 }
-
-
 
 .sub-text {
   font-size: 10px !important;
@@ -362,8 +436,6 @@ small span {
 
 .services-section-row div {
   padding: 10px;
-  /* max-width: 273px;
-  height: 200px; */
 }
 
 .shipping-services-img-box {
@@ -391,8 +463,7 @@ small span {
 .shipping-section-cards:hover {
   cursor: pointer;
   transform: scale(1.05);
- box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5)
-  
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5);
 }
 
 .shipping-section-cards p {
@@ -406,7 +477,7 @@ small span {
 .teal-background-card {
   background-color: teal !important;
 }
-.about-section{
+.about-section {
   background-color: #eaeaea !important;
   width: 100%;
 }
@@ -415,7 +486,6 @@ small span {
     padding: 80px 120px 120px 100px;
   }
   .banner-item-1 p {
-    
     font-size: 45px !important  ;
   }
   .banner-item-1 small {
@@ -428,14 +498,11 @@ small span {
   .form-btn {
     margin-left: -10px;
   }
-  .banner-item-2{
-   left: 10%!important;
+  .banner-item-2 {
+    left: 10% !important;
   }
   .banner-item-2 p {
-    
-    
     font-size: 45px;
-   
   }
   .banner-item-1 small {
     color: #404b51 !important;
@@ -506,7 +573,6 @@ small span {
     width: 8% !important;
   }
 
-  
   .banner-item-1 p {
     font-size: 25px !important;
   }
@@ -533,12 +599,11 @@ small span {
     font-size: 4px;
   }
 
-  
-  .carousal-section{
-  max-height: 240px!important;
-}
-  
-   .banner-item-1{
+  .carousal-section {
+    max-height: 240px !important;
+  }
+
+  .banner-item-1 {
     top: 30%;
   }
   .banner-item-1 p {
@@ -555,14 +620,12 @@ small span {
     font-size: 12px !important;
   }
   .checkbox-text h6 {
-  margin-top: 2.5px!important;
+    margin-top: 2.5px !important;
     font-size: 83%;
   }
 }
 
 @media screen and (max-width: 370px) {
- 
-
   .banner-item-1 p {
     font-size: 13px !important  ;
   }
@@ -576,9 +639,6 @@ small span {
     font-size: 6px !important;
   }
   .location-btn {
-
-  font-size: 17px;
-
-}
-
+    font-size: 17px;
+  }
 }
