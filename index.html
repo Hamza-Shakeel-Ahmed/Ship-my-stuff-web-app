@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
@@ -19,19 +19,14 @@
 
 <body>
     <!--Top bar-->
-    <div class=" container-fluid  d-none d-lg-flex justify-content-around top-bar text-nowrap ">
-        
-
-            <div>
-                <img src="assets/envelope.b9eef8ab.png" width="25px" height="22px" alt="" />
-                <small class="mx-2 text-decoration-none"><a href="# "
-                        class="text-decoration-none text-white">info@shipmystuff.co.za</a></small>
-                
-                <img src="assets/telephone.png" class="ms-4" width="15px" height="15px" object-fit-cover alt="" />
-                <small class=""><a href="#" class="text-decoration-none text-white">(+27)713328391</a></small>
-            </div>
-        
-        <div class=" dropdown-button btn-group ">
+    <div class="container-fluid d-none d-lg-flex justify-content-around top-bar text-nowrap animate-on-scroll fade-up">
+        <div>
+            <img src="assets/envelope.b9eef8ab.png" width="25px" height="22px" alt="" />
+            <small class="mx-2 text-decoration-none"><a href="#" class="text-decoration-none text-white">info@shipmystuff.co.za</a></small>
+            <img src="assets/telephone.png" class="ms-4" width="15px" height="15px" alt="" />
+            <small><a href="#" class="text-decoration-none text-white">(+27)713328391</a></small>
+        </div>
+        <div class="dropdown-button btn-group">
             <button class="btn text-white btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown">
                 Language
             </button>
@@ -40,104 +35,82 @@
     </div>
 
     <!--Navbar-->
-
-    <nav class="navbar  navbar-expand-lg bg-white text-nowrap sticky-top   ">
-        <div class="container-lg   ">
-            <a class="navbar-brand" href="#"><img src="assets/Logo.png" alt="" class="" height="50px" width="200px"></a>
+    <nav class="navbar navbar-expand-lg bg-white text-nowrap sticky-top animate-on-scroll fade-up">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#"><img src="assets/Logo.png" alt="" height="50px" width="200px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse  " id="navbar">
-                <div class="navbar-nav  navbar-font ms-5 ms-xl-5 ">
-                    <a class="nav-link text-info nav-home text-center  " href="#">Home</a>
-                    <div class="btn-group navbar-font  ms-2 ms-xl-5 ">
-                        <button class="btn btn-sm text-info dropdown-toggle   " type="button" data-bs-toggle="dropdown">
-                            <a href="" class="navbar-font text-decoration-none text-info"> Services</a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav navbar-font ms-5 ms-xl-5">
+                    <a class="nav-link text-info nav-home text-center" href="#">Home</a>
+                    <div class="btn-group navbar-font ms-2 ms-xl-5">
+                        <button class="btn btn-sm text-info dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            <a href="" class="navbar-font text-decoration-none text-info">Services</a>
                         </button>
                         <ul class="dropdown-menu"></ul>
                     </div>
-                    <div class="btn-group ms-2   ms-xl-5 ">
-                        <button class="btn  btn-sm text-info dropdown-toggle  " type="button" data-bs-toggle="dropdown">
-                            <a href="" class="navbar-font text-decoration-none text-info"> Resources</a>
+                    <div class="btn-group ms-2 ms-xl-5">
+                        <button class="btn btn-sm text-info dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            <a href="" class="navbar-font text-decoration-none text-info">Resources</a>
                         </button>
                         <ul class="dropdown-menu"></ul>
                     </div>
                     <div class="navbar-font">
-                        <a class="nav-link text-info ms-xl-5 me-2 mt-1 text-center   " href="#">Contact Us</a>
+                        <a class="nav-link text-info ms-xl-5 me-2 mt-1 text-center" href="#">Contact Us</a>
                     </div>
-                    <div class="navbar-font"><a class="nav-link text-info ms-xl-5 me-2  mt-1 text-center " href="#">Track Parcel</a>
-                    </div>
+                    <div class="navbar-font"><a class="nav-link text-info ms-xl-5 me-2 mt-1 text-center" href="#">Track Parcel</a></div>
                     <div class="dropdown ps-lg-5 text-center">
-                        <button class="btn  dropdown-toggle  ms-1 ms-lg-4 mt-2" type="button" data-bs-toggle="dropdown">
-                            <img src="https://ship-my-stuff.web.app/static/media/south.50a2a4dd.svg" height="28px"
-                                width="32px" alt="" />
+                        <button class="btn dropdown-toggle ms-1 ms-lg-4 mt-2" type="button" data-bs-toggle="dropdown">
+                            <img src="https://ship-my-stuff.web.app/static/media/south.50a2a4dd.svg" height="28px" width="32px" alt="" />
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="whatsapp-icon position-fixed  end-0 bottom-0 mb-5">
+
+    <div class="whatsapp-icon position-fixed end-0 bottom-0 mb-5">
         <img src="assets/WhatsApp.ddd47434.png" width="100" height="60" alt="">
     </div>
-    
+
     <!--Carousal section-->
-    <section class="container-fluid carousal-section  ">
+    <section class="container-fluid carousal-section">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                
-                <div class="carousel-item active postion-relative">
-                    <img src="banner/BANNER1.png" class="d-block w-100 " height="350px" alt="...">
-                </div>
-                <div class="carousel-caption banner-item-1 postion-absolute  ">
-                    
-                    
-                    <p class="text-center text-nowrap ">Got Cargo? We will <span> Ship</span> it!</p>
-                    <small>Door to door solutions for commercial <span> |</span> personal effects</small>
-                </div>
-                
-                <div class="carousel-item postion-relative ">
-                    <div>
-                        <img src="banner/BANNER2.jpg" class="d-block w-100 " height="350px" alt="...">
+                <div class="carousel-item active position-relative">
+                    <img src="banner/BANNER1.png" class="d-block w-100" height="350px" alt="...">
+                    <div class="carousel-caption banner-item-1 position-absolute animate-on-scroll fade-up">
+                        <p class="text-center text-nowrap">Got Cargo? We will <span>Ship</span> it!</p>
+                        <small>Door to door solutions for commercial <span>|</span> personal effects</small>
                     </div>
-                    <div class="carousel-caption banner-item-2 postion-absolute  ">
-                        
-                        
-                        <p>Send your stuff, <span> FAST!</span></p>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="banner/BANNER2.jpg" class="d-block w-100" height="350px" alt="...">
+                    <div class="carousel-caption banner-item-2 position-absolute animate-on-scroll fade-up">
+                        <p>Send your stuff, <span>FAST!</span></p>
                         <small>International Courier Service, Simplified!</small>
-                        
                     </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                </div>
                 </div>
             </div>
-            
-            
-            
-        </section>
-        
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
     <!--Services section-->
-
-    <section class="container-xl services position-relative border rounded-5  px-5  py-5 bg-dark text-center">
+       <section class="container-xl services position-relative border rounded-5  px-5  py-5 bg-dark text-center">
         <div class="row">
 
 
@@ -145,15 +118,15 @@
             <div class="col-12">
                 <div class=" d-flex  flex-column align-items-center justify-content-center   flex-lg-row  ">
                     <div
-                        class=" col-sm-8 col-lg-2 py-3 px-5 my-3 me-2 px-4 border border-info rounded-4 service-section-icons">
+                        class="animate-on-scroll col-sm-8 col-lg-2 py-3 px-5 my-3 me-2 px-4 border border-info rounded-4 service-section-icons">
                         <img src="assets/truck icon.png" alt="" />
                     </div>
                     <div
-                        class=" col-sm-8 col-lg-2 py-3  px-5  my-3  me-2 px-4 border border-info rounded-4 active-service-icon  service-section-icons">
+                        class="animate-on-scroll col-sm-8 col-lg-2 py-3  px-5  my-3  me-2 px-4 border border-info rounded-4 active-service-icon  service-section-icons">
                         <img src="assets/Aeroplane icon.png" alt="">
                     </div>
                     <div
-                        class=" col-sm-8  col-lg-2 py-3   px-5  my-3  me-2 px-4 border border-info rounded-4 service-section-icons">
+                        class="animate-on-scroll col-sm-8  col-lg-2 py-3   px-5  my-3  me-2 px-4 border border-info rounded-4 service-section-icons">
                         <img src="assets/ship icon.png" alt="" />
                     </div>
                     <div class="d-grid  col-lg-5 ms-lg-2 ">
@@ -192,13 +165,13 @@
 
             <div class="row   justify-content-center mb-2 ">
                 <div
-                    class=" col my-2 rounded-2  me-2 bg-light py-3 service-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                    class=" animate-on-scroll col my-2 rounded-2  me-2 bg-light py-3 service-section-cards d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/Envalope1.10928b34.png" width="50px" alt="">
                     <p class="title mb-0">A4 Envelope</p>
                     <p>(33 X 4 X 23 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center">
+                    class=" animate-on-scroll col my-2 rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center">
                     <img src="assets/SmallParcel.a988990b.png" width="50px" alt>
 
 
@@ -206,19 +179,19 @@
                     <p>(20 X 20 X 30 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center   ">
+                    class="animate-on-scroll col my-2 rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center   ">
                     <img src="assets/general parcel.png" width="50px" alt="">
                     <p class="title mb-0">General Parcel</p>
                     <p>(50 X 50 X 50 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2 me-2 bg-light py-3  service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
+                    class="animate-on-scroll col my-2 rounded-2 me-2 bg-light py-3  service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/medium-box.png" width="50px" alt="">
                     <p class="title mb-0">Medium Box</p>
                     <p>(40 X 30 X 30 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
+                    class="animate-on-scroll col my-2 rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/large-box.png" width="50px" alt="">
                     <p class="title mb-0">Large Box</p>
                     <p>(70 X 65 X 50 cm)</p>
@@ -229,31 +202,31 @@
 
             <div class="row justify-content-center my-2  mb-2 ">
                 <div
-                    class="col my-2 rounded-2  rounded-2  me-2 bg-light py-3 service-section-cards   d-flex flex-column justify-content-center align-items-center   ">
+                    class="animate-on-scroll col my-2 rounded-2  rounded-2  me-2 bg-light py-3 service-section-cards   d-flex flex-column justify-content-center align-items-center   ">
                     <img src="assets/Laptopbag.f90c0e50 (1).png" width="50px" alt="">
                     <p class="title mb-0">Laptop</p>
                     <p>(37 X 10 X 25 cm)</p>
                 </div>
                 <div
-                    class=" col my-2 rounded-2  rounded-2 me-2 bg-light py-3 service-section-cards   d-flex flex-column justify-content-center align-items-center  ">
+                    class="animate-on-scroll col my-2 rounded-2  rounded-2 me-2 bg-light py-3 service-section-cards   d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/Crate.5a4d6ae4.png" width="50px" alt="">
                     <p class="title mb-0">Plastic Crate 651</p>
                     <p>(67 X 40 X 41 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2  rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
+                    class="animate-on-scroll col my-2 rounded-2  rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/LargeSuitcase.889d18cd.png" width="50px" alt="">
                     <p class="title mb-0">Large suitcase</p>
                     <p>(70 X 30 X 50 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2  rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
+                    class="animate-on-scroll col my-2 rounded-2  rounded-2 me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/SmallSuitcae.d1e8f900.png" width="50px" alt="">
                     <p class="title mb-0">Hand Luggage</p>
                     <p>(53 X 23 X 35 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2  rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center ">
+                    class="animate-on-scroll col my-2 rounded-2  rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center ">
                     <img src="assets/Medicine.c84fc95b.png" width="50px" alt="">
                     <p class="title mb-0">medicine</p>
                     <p>(contact us)</p>
@@ -261,31 +234,31 @@
             </div>
             <div class="row justify-content-center  mb-2 ">
                 <div
-                    class="col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center    ">
+                    class="animate-on-scroll col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center    ">
                     <img src="assets/Stroller.59ca9dba.png" width="50px" alt="">
                     <p class="title mb-0">Stroller</p>
                     <p>(90 X 60 X 90 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
+                    class="animate-on-scroll col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/tvbox.png" width="50px" alt="">
                     <p class="title mb-0">TV Box</p>
                     <p>(115 X 15 X 77 cm)</p>
                 </div>
                 <div
-                    class=" col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center   ">
+                    class="animate-on-scroll col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center   ">
                     <img src="assets/Tube.d5afd646.png" width="50px" alt="">
                     <p class="title mb-0">Tube</p>
                     <p>(96 X 15 X 15 cm)</p>
                 </div>
                 <div
-                    class="col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center   ">
+                    class="animate-on-scroll col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center   ">
                     <img src="assets/Pallet2.44f391d3.png" width="50px" alt="">
                     <p class="title mb-0">Pallet</p>
                     <p>(120 X 80 X 100 cm)</p>
                 </div>
                 <div
-                    class=" col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
+                    class="animate-on-scroll col my-2 rounded-2  me-2 bg-light py-3 service-section-cards  d-flex flex-column justify-content-center align-items-center  ">
                     <img src="assets/Custom-min.5013b824.png" width="50px" alt="">
                     <p class="title mb-0">Custom</p>
                     <p>(Dimensions)</p>
@@ -366,34 +339,7 @@
 
     </section>
 
-    <!--Bar below service section-->
-    <div
-        class="bar-below-services-section my-5  d-flex flex-column flex-lg-row align-items-center justify-content-around">
-        <div class="d-flex my-2 align-items-center text-center "><img src="./assets/checklist.icon.png" height="70px"
-                width="100px" alt="">
-            <div class="text-white ms-3">
-                <h5>No More</h5>
-                <p>Courier Accounts</p>
-            </div>
-        </div>
-
-        <div class="d-flex my-2 align-items-center text-center"><img src="./assets/hand.icon.png" height="70px"
-                width="100px" alt="">
-            <div class="text-white ms-3">
-                <p>Mulitiple Qoutes</p>
-                <h5>INSTANTLY</h5>
-            </div>
-        </div>
-
-        <div class="d-flex my-2 align-items-center text-center"><img src="./assets/pig.icon.png" height="70px"
-                width="100px" alt="">
-            <div class="text-white ms-3">
-                <h5>SAVING YOU</h5>
-                <p>Time and Money</p>
-            </div>
-        </div>
-    </div>
-    <!--Solutions Section-->
+    <!-- Solutions Section -->
     <section class=" solutions  my-5 py-5 d-none d-sm-block container-fluid cards-section overflow-hidden">
         <div class="solutions-section-heading text-center">
             <h1>OUR SOLUTIONS</h1>
@@ -401,7 +347,7 @@
         </div>
         <div class="cards card-1 row   justify-content-center">
             <!-- Card 1 -->
-            <div class="col-10 col-lg-5 mb-2 mt-3 solution-card">
+            <div class="col-10 col-lg-5 animate-on-scroll mb-2 mt-3 solution-card">
                 <div class="card-img">
                     <img src="cards-img/Courier.img" alt="">
                 </div>
@@ -444,7 +390,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class=" col-10 col-lg-5 mb-2 mt-3 solution-card">
+            <div class="col-10 col-lg-5 animate-on-scroll mb-2 mt-3 solution-card">
                 <div class="card-img">
                     <img src="cards-img/Airfreight.img" alt="">
                 </div>
@@ -485,7 +431,7 @@
             <div class="cards row justify-content-center ">
 
                 <!-- Card 3 -->
-                <div class=" col-10 col-lg-4 mx-2 second-row-card  mb-2 mt-3 solution-card">
+                <div class=" col-10 col-lg-4 animate-on-scroll mx-2 second-row-card  mb-2 mt-3 solution-card">
                     <div class="card-img">
                         <img src="cards-img/Shipping.img" alt="">
                     </div>
@@ -523,7 +469,7 @@
                 </div>
 
                 <!-- Card 4 -->
-                <div class="col-10 col-lg-3 second-row-card-one mx-2    mb-2 mt-3 solution-card">
+                <div class="col-10 col-lg-3 animate-on-scroll second-row-card-one mx-2    mb-2 mt-3 solution-card">
                     <div class="card-img">
                         <img src="cards-img/Packaging.img" alt="">
                     </div>
@@ -560,7 +506,7 @@
                 </div>
 
                 <!-- Card 5 -->
-                <div class=" col-10 col-lg-4 second-row-card-one mx-2 mb-2 mt-3 solution-card">
+                <div class=" col-10 col-lg-4 animate-on-scroll second-row-card-one mx-2 mb-2 mt-3 solution-card">
                     <div class="card-img">
                         <img src="cards-img/Consulting.img" alt="">
                     </div>
@@ -600,56 +546,28 @@
 
 
     </section>
-    <!--Information section-->
-    <section class="container">
-        <div class="text-center Information-section-heading">
-            <h1>HOW IT WORKS</h1>
-            <p>Let us find the best rate for you, compare multiple courier quotes, instantly!</p>
-        </div>
-        <div class="d-flex flex-column flex-md-row align-items-center  justify-content-around text-center ">
-            <div class="my-3">
-                <img src="./assets/Find.1fe4f825.png" width="150px" alt="">
-                <h3 class="text-info fw-bold">FIND</h3>
-                <P>Address Information</P>
-                <span class="text-info fw-bold">POINT A TO POINT B</span>
-            </div>
-            <div class="my-3">
-                <img src="./assets/Compare.70be715c.png" width="150px" alt="">
-                <h3 class="text-info fw-bold" fw-bold>COMPARE</h3>
-                <P>Multiple courier quotes</P>
-                <span class="text-info fw-bold">INSTANTLY!</span>
-            </div>
-            <div class="my-3">
-                <img src="./assets/Book.b9b5b6e7.png" width="150px" alt="">
-                <h3 class="text-info fw-bold">BOOK</h3>
-                <P>Book your shipment</P>
-                <span class="text-info fw-bold">ONLINE</span>
-            </div>
-        </div>
-
-    </section>
 
     <!--Packaging Solutions section-->
     <section class="container my-5 py-5">
-        <div class="text-center packaging-section-heading">
+        <div class="text-center animate-on-scrol packaging-section-heading">
             <h1>PACKAGING SOLUTIONS</h1>
             <p>Cost-effective packaging solutions for any mode of transport, big or small</p>
         </div>
         <div class="border border-1 border-black rounded-5">
             <div class=" d-flex flex-column flex-lg-row justify-content-around ">
-                <div class="text-center my-2">
+                <div class="text-center animate-on-scroll my-2">
                     <h5>Cube</h5>
                     <img src="./assets/Movecubes-min.5f57b682.png" width="150px" alt="">
                 </div>
-                <div class="text-center my-2">
+                <div class="text-center animate-on-scroll   my-2">
                     <h5>Crating</h5>
                     <img src="./assets/Custom-min.5013b824.png" width="150px" alt="">
                 </div>
-                <div class="text-center my-2">
+                <div class="text-center animate-on-scroll my-2">
                     <h5>Motorised</h5>
                     <img src="./assets/Motorised-min.2e0ad1b8.png" width="150px" alt="">
                 </div>
-                <div class="text-center my-2">
+                <div class="text-center animate-on-scroll  my-2">
                     <h5>Hazardous</h5>
                     <img src="./assets/download.png" width="90px" alt="">
                 </div>
@@ -657,7 +575,7 @@
             </div>
             <hr>
             <div class="d-flex flex-column flex-md-row justify-content-around align-items-center ">
-                <div>
+                <div class="animate-on-scroll">
                     <ul class="text-white text-center fw-bold  my-5">
                         <li class=" list-group-item  py-2 px-2 active bg-dark text-white rounded-3">SMALL</li>
                         <li class=" list-group-item py-2 text-info ">MEDIUM</li>
@@ -666,7 +584,7 @@
                     </ul>
                 </div>
 
-                <div class="px-4">
+                <div class="px-4 animate-on-scroll  ">
                     <img src="./assets/smallcube-min.09911cdc.png" width="200px" alt="">
                 </div>
                 <div class="my-5 text-center text-info">
@@ -690,7 +608,7 @@
         
         <div class="row  Shipping services-section-row">
             <div   
-            class="col-6 col-sm-4 col-md-3 col-lg-2 bg-light py-3 shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+            class="col-6 col-sm-4 animate-on-scroll col-md-3 col-lg-2 bg-light py-3 shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
             <div >   
             <img class="ms-4" src="assets/Asset 114.7741f56e.png" width="50px" alt="">
                <p class=" text-center mb-0">Instant Online
@@ -703,7 +621,7 @@
             
 
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2  teal-background-card shipping-section-cards d-flex flex-column  justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 animate-on-scroll col-md-3 col-lg-2  teal-background-card shipping-section-cards d-flex flex-column  justify-content-center align-items-center  ">
                 <div>
                 <img  class="ms-4" src="assets/umberella.icon.png" width="50px" alt="">
                 <p class=" text-center mb-0">Parcel
@@ -713,7 +631,7 @@
 </div>
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2  shipping-section-cards d-flex flex-column  justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 animate-on-scroll col-md-3 col-lg-2  shipping-section-cards d-flex flex-column  justify-content-center align-items-center  ">
                 <div>
                 <img  class="ms-4" src="assets/airplane.2.icon.png" width="50px" alt="">
                 <p class=" text-center mb-0">International
@@ -723,7 +641,7 @@
                 </div>
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 teal-background-card   shipping-section-cards d-flex flex-column  justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 animate-on-scroll col-md-3 col-lg-2  teal-background-card    shipping-section-cards d-flex flex-column  justify-content-center align-items-center  ">
                 <div>
                 <img  class="ms-3" src="assets/hand.2.icon.png" width="50px" alt="">
                <p class=" text-center mb-0">No Hidden
@@ -733,7 +651,7 @@
                 </p>
                 </div>
             </div>
-            <div class="col-6 col-sm-5 col-md-3 col-lg-2 shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+            <div class="col-6 col-sm-5 col-md-3 col-lg-2 animate-on-scroll shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <div>
                 <img  class="ms-4" src="assets/packiging-solutions.icon.png" width="50px" alt="">
                 <p class=" text-center mb-0">Packaging
@@ -743,7 +661,7 @@
                 </div>
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 teal-background-card    shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 col-md-3 col-lg-2 animate-on-scroll teal-background-card    shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <div>
                 <img  class="ms-4"  src="assets/sea.ship.icon.png" width="50px" alt="">
                 <p class=" text-center mb-0">Sea Freight
@@ -753,7 +671,7 @@
                 </div>
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 py-3 d-lg-none shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 col-md-3 col-lg-2 py-3 d-lg-none animate-on-scroll shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <div>
                 <img  class="ms-4" src="assets/exp.advice.icon.png" width="50px" alt="">
                 <p class=" text-center mb-0">Expert advice
@@ -762,7 +680,7 @@
 
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 d-lg-none teal-background-card    shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 col-md-3 col-lg-2 d-lg-none animate-on-scroll teal-background-card    shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <img   src="assets/sea.ship.icon.2.png" width="50px" alt="">
                 <p class=" text-center mb-0">Marine
                     <br>
@@ -773,7 +691,7 @@
         </div>
         <div class="row mb-2 services-section-row">
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 teal-background-card     shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 col-md-3 col-lg-2 animate-on-scroll teal-background-card     shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <img   src="assets/saving-time.png" width="50px" alt="">
                 <p class=" text-center mb-0">Saving You
                     <br>
@@ -781,7 +699,7 @@
                 </p>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 animate-on-scroll shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <img   src="assets/truck2.png" width="50px" alt="">
                 <p class=" text-center mb-0">Domestic
                     <br>
@@ -790,7 +708,7 @@
 
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 teal-background-card     shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 col-md-3 col-lg-2 animate-on-scroll teal-background-card     shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <img   src="assets/doortodoor.png" width="50px" alt="">
                 <p class=" text-center mb-0">Door to door
                     <br>
@@ -817,7 +735,7 @@
 
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 bg-light shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 col-md-3 col-lg-2 bg-light animate-on-scroll shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <img src="assets/international.png" width="50px" alt="">
                 <p class=" text-center mb-0">International
                     <br>
@@ -826,7 +744,7 @@
 
             </div>
             <div
-                class="col-6 col-sm-4 col-md-3 col-lg-2 d-lg-none teal-background-card    shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+                class="col-6 col-sm-4 col-md-3 col-lg-2 d-lg-none animate-on-scroll teal-background-card    shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <img src="assets/pig.icon.png" width="50px" alt="">
                 <p class=" text-center mb-0">Cost-effective
                     <br>
@@ -835,7 +753,7 @@
                 </p>
 
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-lg-none shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-lg-none animate-on-scroll shipping-section-cards d-flex flex-column justify-content-center align-items-center  ">
                 <img src="assets/tracking.png" width="50px" alt="">
                 <p class=" text-center mb-0">Parcel
                     <br>
@@ -854,7 +772,7 @@
     <!--About locations-->
     <section class="container locations-container my-5">
         <div class="row justify-content-center gx-0 ">
-            <div class="col-11 col-lg-4 ">
+            <div class="col-11 animate-on-scroll col-lg-4 ">
                 <div class="location-box location-box-one border border-dark">
                     <div class=" text-center text-bold border-dark border-bottom  location-text py-3">DOMESTIC COURIER
                     </div>
@@ -866,7 +784,7 @@
 
                 </div>
             </div>
-            <div class="col-11 col-lg-4">
+            <div class="col-11 animate-on-scroll col-lg-4">
                 <div class="location-box location-box-two border border-dark">
                     <div class="text-center text-bold border-dark border-bottom  location-text  py-3">SEA FREIGHT</div>
                     <div class="location-two"> </div>
@@ -881,7 +799,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-11 col-lg-4">
+            <div class="col-11 animate-on-scroll col-lg-4">
                 <div class=" location-box location-box-three border border-dark">
                     <div class=" text-center text-bold border-dark border-bottom  location-text  py-3">INTERNATIONAL
                         COURIER
@@ -1084,4 +1002,38 @@
     </footer>
 </body>
 
+</html>
+<script>
+        function initScrollAnimations() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.15,
+                rootMargin: "0px 0px -50px 0px"
+            });
+
+            document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initScrollAnimations();
+
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    navbar.style.backgroundColor = 'rgba(255,255,255,0.98)';
+                    navbar.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
+                } else {
+                    navbar.style.backgroundColor = 'white';
+                }
+            });
+        });
+    </script>
+</body>
 </html>
